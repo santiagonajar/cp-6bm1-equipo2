@@ -1,0 +1,11 @@
+bin/
+*.o
+matmul_00
+matmul_02
+matmul_03
+hello_omp
+cp-env/
+__pycache__/
+.ipynb_checkpoints/
+.DS_Store
+*.pdf

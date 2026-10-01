@@ -1,0 +1,9 @@
+cd practicas/practica1/
+{
+  gcc --version | head -1
+  g++ --version | head -1
+  python3 --version
+  python3 -c "import numpy; print('numpy', numpy.__version__)"
+  git --version
+  echo | gcc -fopenmp -dM -E - | grep -i openmp
+} > entorno.txt
